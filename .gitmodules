@@ -1,0 +1,18 @@
+[submodule "chef-solo/cookbooks/apt"]
+	path = chef-solo/cookbooks/apt
+	url = https://github.com/opscode-cookbooks/apt.git
+[submodule "chef-solo/cookbooks/openssl"]
+	path = chef-solo/cookbooks/openssl
+	url = https://github.com/opscode-cookbooks/openssl.git
+[submodule "chef-solo/cookbooks/apache2"]
+	path = chef-solo/cookbooks/apache2
+	url = https://github.com/opscode-cookbooks/apache2.git
+[submodule "chef-solo/cookbooks/mysql"]
+	path = chef-solo/cookbooks/mysql
+	url = https://github.com/opscode-cookbooks/mysql.git
+[submodule "chef-solo/cookbooks/php"]
+	path = chef-solo/cookbooks/php
+	url = https://github.com/opscode-cookbooks/php.git
+[submodule "chef-solo/cookbooks/chef-php-extra"]
+	path = chef-solo/cookbooks/chef-php-extra
+	url = https://github.com/inviqa/chef-php-extra.git
