@@ -1,0 +1,6 @@
+cookbook "apt"
+cookbook "openssl"
+cookbook "apache2"
+cookbook "mysql"
+cookbook "php"
+cookbook "chef-php-extra", git: "git://github.com/inviqa/chef-php-extra.git"
