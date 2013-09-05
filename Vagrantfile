@@ -39,9 +39,8 @@ Vagrant.configure("2") do |config|
                 "docroot_dir" => "/vagrant"
             },
             "mysql" => {
-                "bind_address" => "", <- marche pas 
-                "allow_remote_root" => "true", <- marche pas
                 "remove_test_database" => "true",
+                "bind_address" => "127.0.0.1",
                 "server_root_password" =>  "password",
                 "server_repl_password" =>  "password",
                 "server_debian_password" => "password"

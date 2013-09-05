@@ -23,11 +23,29 @@ The box used in this repo comes from vagrantbox.es
 
 https://www.virtualbox.org/wiki/Downloads
 
+Accessing MySQL from the host
+=============================
+It's a bit tricky. If you leave the MySQL cookbook by default it will use a bind_address on something like 10.0.2.15.
+I've forced this address to be 127.0.0.1 in the vagrantfile.
+
+Now for accessing the database from MySQL Workbench you can set the connection :
+
+ - Standard TCP/Ip over SSH
+
+ - SSH Hostname: localhost:2222
+ - SSH Username: vagrant
+ - SSH Password: vagrant
+ - SSH Key File: %homedir%\.vagrant.d\insecure_private_key
+ - MySQL Hostname: 127.0.0.1 (We could use 10.0.2.15 but you have to remember it, now it's simplier)
+ - MySQL Server Port: 3306
+ - Username: root
+ - Password: password (this is set in the vagrantfile)
+
 TODO
 ======
-- [ ] Use Berkshelf
-- [ ] Open MySQL for accessing it from outside the box (MySQL Workbench)
-- [ ] Install Composer
+- [X] Use Berkshelf
+- [X] Open MySQL for accessing it from outside the box (MySQL Workbench)
+- [ ] Install Composer (is it usefull??? We can use it on the host no?)
 - [ ] Install MongoDB
 - [ ] Install G-WAN server instead of Apache
 
