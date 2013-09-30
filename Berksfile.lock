@@ -15,19 +15,25 @@
     "php": {
       "locked_version": "1.2.4"
     },
+    "git": {
+      "locked_version": "2.6.0"
+    },
     "chef-php-extra": {
       "locked_version": "0.4.0",
       "git": "git://github.com/inviqa/chef-php-extra.git",
       "ref": "7a743aa34e9082ae56ba8c64d26ee1d1b147a81a"
+    },
+    "docker": {
+      "locked_version": "0.7.1"
+    },
+    "vHost-cookbook": {
+      "path": "./vHost-cookbook"
     },
     "build-essential": {
       "locked_version": "1.4.2"
     },
     "xml": {
       "locked_version": "1.1.2"
-    },
-    "git": {
-      "locked_version": "2.6.0"
     },
     "dmg": {
       "locked_version": "2.0.0"
@@ -43,6 +49,18 @@
     },
     "runit": {
       "locked_version": "1.2.0"
+    },
+    "golang": {
+      "locked_version": "1.1.1"
+    },
+    "lxc": {
+      "locked_version": "1.1.2"
+    },
+    "dpkg_autostart": {
+      "locked_version": "0.1.6"
+    },
+    "modules": {
+      "locked_version": "0.1.3"
     }
   }
 }
