@@ -32,7 +32,7 @@ Now for accessing the database from MySQL Workbench you can set the connection :
 
  - Standard TCP/Ip over SSH
 
- - SSH Hostname: localhost:2222
+ - SSH Hostname: localhost:2222 (or 127.0.0.1:2222 if localhost doesn't work)
  - SSH Username: vagrant
  - SSH Password: vagrant
  - SSH Key File: %homedir%\.vagrant.d\insecure_private_key
