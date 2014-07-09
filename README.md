@@ -1,4 +1,4 @@
-vagrant-lamp
+vagrant-lamp !!! Deprecated jun 2014, Vagrant updates break everything and some plugins are not maintained anymore !!!
 ============
 
 A Vagrant configuration for development with Apache-MySQL-PHP on a ubuntu 32bits server (precise32).
